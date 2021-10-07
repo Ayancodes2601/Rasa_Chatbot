@@ -1,0 +1,40 @@
+version: "2.0"
+
+stories:
+
+- story: covid_story
+  steps:
+  - intent: start
+  - action: utter_start
+  - intent: greet
+  - action: utter_greet
+  - intent: covid_basic_info
+  - action: utter_covid_basic_info
+  - intent: symptoms
+  - action: utter_symptoms
+  - intent: long_term_effects
+  - action: utter_long_term_effects
+  - intent: age_to_risk
+  - action: utter_age_to_risk
+  - intent: test_for_covid
+  - action: utter_test_for_covid
+  - intent: rapid_test
+  - action: utter_rapid_test
+  - intent: diff_isol_quaran
+  - action: utter_diff_isol_quaran
+  - intent: steps_after_exposure
+  - action: utter_steps_after_exposure
+  - intent: dormant_state
+  - action: utter_dormant_state
+  - intent: vaccine
+  - action: utter_vaccine
+  - intent: covid_symptoms_to_be_done
+  - action: utter_covid_symptoms_to_be_done
+  - intent: treatments
+  - action: utter_treatments
+  - intent: treatment_with_antibiotic
+  - action: utter_treatment_with_antibiotic
+  - intent: goodbye
+  - action: utter_goodbye
+  - intent: bot_challenge
+  - action: utter_iamabot

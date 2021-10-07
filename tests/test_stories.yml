@@ -1,0 +1,74 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: covid_story
+  steps:
+  - user: |
+      start
+    intent: start
+  - action: utter start
+  - user: |
+      Hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      Beginning of the coronavirus outbreak
+    intent: covid_basic_info
+  - action: utter_covid_basic_info
+  - user: |
+      What are the symptoms of Covid-19?
+    intent: symptoms
+  - action: utter_symptoms
+  - user: |
+      What are the long term effects of Covid-19?
+    intent: long_term_effects
+  - action: utter_long_term_effects
+  - user: |
+      Severe illness
+    intent: age_to_risk
+  - action: utter_age_to_risk
+  - user: |
+      tests
+    intent: test_for_covid
+  - action: utter_test_for_covid
+  - user: |
+      Rapid test
+    intent: rapid_test
+  - action: utter_rapid_test
+  - user: |
+      Isolation and quarantine
+    intent: diff_isol_quaran
+  - action: utter_diff_isol_quaran
+  - user: |
+      Steps to follow after exposure to Covid-19 patient
+    intent: steps_after_exposure
+  - action: utter_steps_after_exposure
+  - user: |
+      Dormant state of the virus
+    intent: dormant_state
+  - action: utter_dormant_state
+  - user: |
+      Vaccine
+    intent: vaccine
+  - action: utter_vaccine
+  - user: |
+      What should I do if I have Covid-19 symptoms?
+    intent: covid_symptoms_to_be_done
+  - action: utter_covid_symptoms_to_be_done
+  - user: |
+      Treatments
+    intent: treatments
+  - action: utter_treatments
+  - user: |
+      Antibiotics
+    intent: treatment_with_antibiotic
+  - action: utter_treatment_with_antibiotic
+  - user: |
+      bye
+    intent: goodbye
+  - action: utter_goodbye
+  - user: |
+      are you a bot?
+    intent: bot_challenge
+  - action: utter_iamabot

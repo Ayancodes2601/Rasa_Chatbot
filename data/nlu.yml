@@ -1,0 +1,143 @@
+version: "2.0"
+
+nlu:
+- intent: start
+  examples: |
+    -start
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+- intent: covid_basic_info
+  examples: |
+    - Tell me something about Covid-19
+    - Tell me something about the beginning of covid
+    - Beginning of the coronavirus outbreak
+    - How did the coronavirus spread?
+    - Brief information about Covid-19
+
+- intent: symptoms
+  examples: |
+    - What are the symptoms of Covid-19?
+    - What hapens when covid-19 spreads?
+    - Symptoms of Covid-19
+    - Symptoms due to coronavirus
+    - Symptoms
+
+- intent: long_term_effects
+  examples: |
+    - Long term effects
+    - Long term effects of Covid-19
+    - What are the long term effects of Covid-19?
+    - What happens to people who have Covid-19?
+    - What happens to people who get Covid-19?
+
+- intent: age_to_risk
+  examples: |
+    - Who is at most risk of severe illness to Covid-19?
+    - Ages at most risk
+    - People who are prone to severe illness
+    - Severe illness
+    - Age
+
+- intent: test_for_covid
+  examples: |
+    - When should I go for a covid test?
+    - What test shoud I do to see if I have Covid-19?
+    - tests
+    - Should I go for a test to see if I am Covid positive?
+    - Is it compulsory to get tested for Covid-19?
+    - tests for Covid-19
+
+- intent: rapid_test
+  examples: |
+    - What about rapid tests?
+    - Are there any rapid tests for diagnosing Covid-19?
+    - Rapid test
+    - Are there rapid tests?
+    - Can rapid tests be an option for diagnosing Covid-19?
+
+- intent: diff_isol_quaran
+  examples: |
+    - Difference between isolation and quarantine
+    - What is the difference between isolation and quarantine?
+    - Are isolation and quarantine different?
+    - Isolation and quarantine
+
+- intent: steps_after_exposure
+  examples: |
+      - What shoud I do if I have been exposed to someone who had Covid-19?
+      - What steps should be followed after exposure to a Covid-19 patient?
+      - Steps to follow after exposure to Covid-19 patient
+
+- intent: dormant_state
+  examples: |
+      - After what time will we see the symptoms?
+      - What is the expected time after which we might get the symptoms?
+      - What is the dormant state of the virus?
+      - Dormant state of the virus
+      - Expected time after which we might get the symptoms
+
+- intent: vaccine
+  examples: |
+      - Is there a vaccine for Covid-19?
+      - Vaccine for Covid-19
+      - Can we get vaccinated for Covid-19?
+      - Vaccine
+
+- intent: covid_symptoms_to_be_done
+  examples: |
+      - What should I do if I have Covid-19 symptoms?
+      - Steps to be taken if I have Covid-19 symptoms
+
+- intent: treatments
+  examples: |
+      - Are there treatments for Covid-19?
+      - Treatments
+      - Treatments for Covid-19
+      - What are the treatments for Covid-19?
+      - How can Covid-19 be treated?
+
+- intent: treatment_with_antibiotic
+  examples: |
+      - Are antibiotics effective in treating Covid-19?
+      - Antibiotics
+      - Use of antibiotics in treatment of Covid-19
+      - Antibiotics for Covid-19
+      - Does antibiotics prevent Covid-19?
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
